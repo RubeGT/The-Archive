@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE ARCHIVE</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- 
+    ARG CLUE: If you're reading this, you're on the right path.
+    The passphrase for restricted documents: think about where
+    information comes from. "sourcing" - as in, check your sources.
+    
+    NXQ: gur ahzore lbh urne vf gur xrl (ROT13 hint)
+    Try #error for a broken page. Or #hidden/source with the passphrase.
+  -->
+  <div class="wiki-container">
+    <main id="main-content">
+      <!-- Content loaded by app.js -->
+      <div class="wiki-header">
+        <h1 class="wiki-title">THE ARCHIVE</h1>
+        <p class="wiki-subtitle">Loading...</p>
+      </div>
+    </main>
+  </div>
+
+  <!-- Invisible admin toggle - bottom right corner -->
+  <button class="admin-toggle" id="admin-toggle" title="Konami: ↑↑↓↓←→←→BA">?</button>
+
+  <script src="js/app.js"></script>
+  <script>
+    // Hidden behavior: Konami code also works via admin toggle
+    document.getElementById('admin-toggle')?.addEventListener('dblclick', function() {
+      window.location.hash = 'admin';
+      window.dispatchEvent(new HashChangeEvent('hashchange'));
+    });
+  </script>
+</body>
+</html>

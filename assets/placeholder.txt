@@ -1,0 +1,2 @@
+Place image files (png, jpg, gif) in this folder for wiki articles.
+Reference them as: /assets/filename.png

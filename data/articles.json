@@ -1,0 +1,71 @@
+{
+  "articles": [
+    {
+      "id": "incident-1997",
+      "title": "Incident Report #1997",
+      "date": "1997-03-14",
+      "category": "incidents",
+      "visible": true,
+      "content": "On March 14, 1997, multiple witnesses reported seeing <span class=\"redacted\">███████</span> in the northern sector. All recordings were subsequently <span class=\"glitch-text\" data-text=\"corrupted\">lost</span>. File recovery attempts continue.",
+      "clue": null
+    },
+    {
+      "id": "project-blackout",
+      "title": "Project BLACKOUT",
+      "date": "1989-11-02",
+      "category": "projects",
+      "visible": true,
+      "content": "CLASSIFIED. Initiated under directive <span class=\"invisible\" title=\"14\">──────</span>. Purpose: information suppression. Status: ACTIVE. Do not discuss. Do not document. Do not remember.",
+      "clue": "the number you hear is the key"
+    },
+    {
+      "id": "voice-recording-041",
+      "title": "Voice Recording #041",
+      "date": "2003-06-19",
+      "category": "recordings",
+      "visible": true,
+      "content": "Transcript unavailable. Audio quality degraded. Last intelligible phrase: \"...they're not supposed to exist...\" <span class=\"reversed\">.emit siht morf noitcerid eht sdnuof m'I</span>",
+      "clue": "look backwards"
+    },
+    {
+      "id": "entity-log",
+      "title": "Entity Observation Log",
+      "date": "2011-09-09",
+      "category": "entities",
+      "visible": true,
+      "content": "Subject exhibits behavior inconsistent with known physics. Observed in 47 locations simultaneously. Designation: <span class=\"base64-hint\">U0VBUklORw==</span>. Recommend immediate reclassification.",
+      "clue": "decode what you see"
+    },
+    {
+      "id": "final-transmission",
+      "title": "Final Transmission",
+      "date": "2020-12-21",
+      "category": "transmissions",
+      "visible": true,
+      "content": "We don't have much time. If you're reading this, you found the archive. The truth is in the <span class=\"secret-link\" data-href=\"#hidden/source\">source</span>. Check the source. Always check the source.",
+      "clue": null
+    }
+  ],
+  "hiddenArticles": [
+    {
+      "id": "source",
+      "title": "The Source",
+      "password": "sourcing",
+      "content": "You found it. The archive runs deeper than the index suggests. <a href=\"#hidden/corrupted\">Some files were never meant to be found</a>.",
+      "requiresPassword": true
+    },
+    {
+      "id": "corrupted",
+      "title": "",
+      "content": "CORRUPTED",
+      "isCorrupted": true
+    },
+    {
+      "id": "beyond",
+      "title": "Beyond the Archive",
+      "content": "Congratulations. You've followed every clue. The archive was only the beginning. There are no more pages. Or are there? <span class=\"flicker\">[ERROR: INDEX OVERFLOW]</span>",
+      "requiresUnlock": true,
+      "unlockKey": "puzzle_complete"
+    }
+  ]
+}

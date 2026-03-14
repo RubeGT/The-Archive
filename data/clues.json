@@ -1,0 +1,32 @@
+{
+  "passwords": {
+    "source": "sourcing"
+  },
+  "puzzleSteps": [
+    {
+      "id": "step1",
+      "hint": "Find the reversed text and read it backwards",
+      "action": "decode_reversed"
+    },
+    {
+      "id": "step2",
+      "hint": "U0VBUklORw== decodes to something",
+      "action": "decode_base64"
+    },
+    {
+      "id": "step3",
+      "hint": "Check the page source for hidden comments",
+      "action": "view_source"
+    },
+    {
+      "id": "step4",
+      "hint": "The final transmission points somewhere",
+      "action": "click_source_link"
+    },
+    {
+      "id": "step5",
+      "hint": "Navigate the corrupted page - try clicking the glitch",
+      "action": "escape_corrupted"
+    }
+  ]
+}
