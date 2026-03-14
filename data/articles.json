@@ -17,6 +17,12 @@
       "visible": true,
       "content": "Archezz fell into the <span class=\"redacted\">███████</span>. Screams could be heard from miles away, he is still missing.",
       "clue": null
-    }
+    },
+    {
+    "id": "corrupted",
+    "title": "",
+    "content": "CORRUPTED",
+    "isCorrupted": true
+    },
   ]
 }
