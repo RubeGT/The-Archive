@@ -8,6 +8,15 @@
       "visible": true,
       "content": "Content Game.",
       "clue": null
-    }
+    },
+    {
+      "id": "GD-LOG2",
+      "title": "The Incident",
+      "date": "1999-05-3",
+      "category": "incidents",
+      "visible": true,
+      "content": "Archezz fell into the redacted. Screams could be heard from miles away, he is still missing.",
+      "clue": null
+    },
   ]
 }
