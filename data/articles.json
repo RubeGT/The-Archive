@@ -19,10 +19,10 @@
       "clue": null
     },
     {
-    "id": "corrupted",
-    "title": "",
-    "content": "CORRUPTED",
-    "isCorrupted": true
-    },
+      "id": "corrupted",
+      "title": "",
+      "content": "corrupted information please refresh.",
+      "iscorrupted": true
+    }
   ]
 }
