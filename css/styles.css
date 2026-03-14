@@ -5,8 +5,8 @@
 
 /* === CSS Variables === */
 :root {
-  --bg-primary: #745d5d;
-  --bg-secondary: #121212;
+  --bg-primary: #000000;
+  --bg-secondary: #000000;
   --bg-tertiary: #1a1a1a;
   --text-primary: #c4c4c4;
   --text-secondary: #8a8a8a;
